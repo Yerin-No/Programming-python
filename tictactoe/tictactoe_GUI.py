@@ -50,7 +50,7 @@ class TictactoeGUI:
         x = 0
         y = 0
 
-        for i, v in enumerate(self.game_engine.board()):
+        for i, v in enumerate(self.game_engine.board):
             if v == '.':
                 pass
             else:       #elif v == 'X' or v == 'O':
